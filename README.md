@@ -1,4 +1,4 @@
-# QA Automation - Company Registration
+# QA Automation - Costumer Registration [Appium]
 
 This repository contains automated UI tests using **Selenium**, **Pytest**, **Allure Report** to automate the **Company Registration** functionality.
 
