@@ -35,15 +35,15 @@ eSuit_Assessment/
    ```
 2. Run the test:
     ```bash
-   pytest --alluredir=allure-results
+   pytest tests/test_company_registration.py --alluredir=reports/
    ```
 3. Generate allure-result:
     ```bash
-   allure generate allure-results -o reports --clean
+   allure generate reports/ -o reports/html --clean
    ```
-3. Open reports:
+3. Generate and Open report via server:
     ```bash
-   allure open reports
+   allure serve reports/
    ```
    
 ## 💡 Notes
