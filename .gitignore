@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.idea/
+*.log
+*.xml
+.allure-results/
+reports/
