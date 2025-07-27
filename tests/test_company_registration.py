@@ -37,7 +37,13 @@ def test_company_registration(driver):
         reg.new_costumer_menu()
     with allure.step("Open registration form"):
         reg.new_costumer_registration()
-    with allure.step("Fill registration form"):
-        reg.fill_form()
+    with allure.step("Fill basic form"):
+        reg.fill_basic_form()
+    with allure.step("Fill location form"):
+        reg.fill_location_form()
+    with allure.step("Fill document form"):
+        reg.fill_documents_form()
+    with allure.step("Approval Signature"):
+        reg.approval_signature()
 
     time.sleep(5)
